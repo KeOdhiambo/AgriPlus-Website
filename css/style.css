@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ED661F;
+    background-color: white;
 
 }
 
@@ -39,4 +39,16 @@ body {
     background-color: #ED661F;
     font-size: larger;
     cursor: pointer;
+}
+/* background */
+#text{
+    text-align: left;
+
+}
+#button-2{
+    background-color: #ED661F;
+    font-size: large;
+    cursor: pointer;
+    border: 10pc 20pc;
+    
 }
