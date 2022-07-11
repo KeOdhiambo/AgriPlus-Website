@@ -66,7 +66,6 @@ body {
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    text-underline-position: ;
     
 }
 
@@ -78,21 +77,9 @@ body {
 .flex-popular{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
-#img-c{
+#popular-card{
     height: 100%;
     width: 100%;
 }
-#img-c2{
-    height: 100%;
-    width: 100%;
-}
-#img-T{
-    height: 100%;
-    width: 100%;
-}
-#img-k{
-    height: 100%;
-    width: 100%;
-}
+
