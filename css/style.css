@@ -1,38 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins&family=Space+Grotesk&display=swap');
+/* imports  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 *{
-    /* font-family: 'Oleo Script', 'cursive'; */
-    font-family: 'Poppins', sans-serif;;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: white;
-
+    font-family: 'Poppins', sans-serif;
 }
+
 
 /* navbar */
-#logo h1 {
-    color: bisque;
-}
-
 .navbar {
+    color: white;
     padding: 10px 100px;
     display: flex;
     justify-content: space-between ;
     background-color: black;
+    align-items: center;
 }
 
-#links ul {
-    list-style: none;
-    display: flex;
-    /* gap: 50px; */
-    color: bisque; 
+.navbar h1 {
+    font-size: 800;
+}
+
+#strong{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
     text-underline-position: below;
 }
 
-#links ul li a{
-    text-decoration: antiquewhite;
+.links ul {
+
+    list-style: none;
+    display: flex;
+    /* gap: 50px; */ 
+    text-underline-position: below;
+}
+.
+
+.links ul li a {
+    color: white;
+    text-decoration: none;
     padding: 0px 30px;
+}
+
+
+.nav-btns {
+    align-items: center;
+    list-style: none;
 }
 
 #get-btn {
@@ -40,18 +58,49 @@ body {
     background-color: #ED661F;
     font-size: larger;
     cursor: pointer;
+    border: none;
 }
+
+
 /* background */
+.image-flex{
+    display:flex;
+    /* margin:10px auto; */
+    /* gap: 2rem; */
+}
+
+.image-flex {
+    width: 100%;
+
+    justify-content: center;
+    background-image: url('../images/image 1.png');
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.ingridients{
+    /* background-color: red; */
+    width: 500px;
+}
+/* .image-flex img {
+    width: 100%;
+    height: 100%;
+} */
+
+.back-img {
+    padding: 2%;
+
+}
+
 #text{
-    text-align: left;
-    
+    text-align: left;  
 
 }
 #button-2{
     cursor: pointer;
     font-size: x-large;
     background-color: #ED661F;
-    text color: #000;
+    color: #000;
     
 }
 
@@ -71,22 +120,15 @@ body {
     gap: 20px;
 }
 #img2{
-    width: 10%;
-    height: 10%
+    width: 100%;
+    height: 100%
 }
-.imageflex{
-    display:flex;
-    margin:10px;
-    gap: 2rem;
-}
-.imageflex>*{
-    flex: 1;
-}
+
 
 .products-categories h1{
     text-align: center;
     font-size: larger;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 
@@ -95,19 +137,48 @@ body {
     font-weight: 100;
 }
 
-.flex-popular{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 20%;
-    height: fit-content;
-}
-#popular-card{
-    height: 100%;
-    width: 100%;
+.popular-container {
+ padding: 4% 8%;
 }
 
-.our-customers{
+.flex-popular{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 3.2rem;
 }
+
+
+.popular-card img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+/* customers */
+.our-customers {
+    margin: 0 8%;
+}
+
+.customers-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-icons {
+    padding: 4% 4% 4% 0;
+    box-shadow: 8px 8px 8px 8px gray;
+}
+
+.icons {
+    color: #ED661F;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
