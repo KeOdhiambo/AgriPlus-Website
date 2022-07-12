@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    margin: 10px 100px;
+    padding: 10px 100px;
     display: flex;
     justify-content: space-between ;
     background-color: black;
@@ -26,7 +26,8 @@ body {
     list-style: none;
     display: flex;
     /* gap: 50px; */
-    color: bisque;
+    color: bisque; 
+    text-underline-position: below;
 }
 
 #links ul li a{
@@ -43,12 +44,14 @@ body {
 /* background */
 #text{
     text-align: left;
+    
 
 }
 #button-2{
-    background-color: #ED661F;
-    font-size: large;
     cursor: pointer;
+    font-size: x-large;
+    background-color: #ED661F;
+    text color: #000;
     
 }
 .why-we{
@@ -60,6 +63,14 @@ body {
 #img2{
     width: 10%;
     height: 10%
+}
+.imageflex{
+    display:flex;
+    margin:10px;
+    gap: 2rem;
+}
+.imageflex>*{
+    flex: 1;
 }
 
 .products-categories h1{
@@ -76,10 +87,17 @@ body {
 
 .flex-popular{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: fit-content;
 }
 #popular-card{
     height: 100%;
     width: 100%;
 }
 
+.our-customers{
+    display: flex;
+    flex-direction: row;
+}
