@@ -54,6 +54,16 @@ body {
     text color: #000;
     
 }
+
+.vendors{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    
+
+
+
+}
 .why-we{
     display: flex;
     flex-direction: row;
