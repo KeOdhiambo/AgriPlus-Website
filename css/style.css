@@ -199,17 +199,37 @@ body {
     align-items: center;
     justify-content: center;
 }
-.subscribe h2{
+.subscribe h1{
     text-align: center;
 }
 .subscribe p{
     text-align: center;
+    font-weight: bold;
 }
 
 .btn3 {
     display: flex;
     justify-content: center;
+    padding-top: 2%;
     
+}
+#sub{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 5%;
+    background-color: #ED661F;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration-color: white;
+}
+#text3{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    border: none;
 }
 
 
