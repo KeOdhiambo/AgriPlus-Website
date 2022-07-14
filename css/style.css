@@ -91,6 +91,7 @@ body {
 
 }
 
+
 #text{
     text-align: left;  
 
@@ -244,6 +245,39 @@ body {
     border: none;
 }
 
+.condition-flex{
+    background-color: black;
+    padding: 5% 5% 5% 5%;margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    row-gap: 2rem;
+
+}
+
+#button-flex{
+    display: flex;
+    flex-direction:row ;
+
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+.company ul{
+    list-style: none;
+}
+}
+
+#img5{
+    background-color: white;
+}
 
 
 
